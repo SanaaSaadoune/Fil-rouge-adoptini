@@ -1,0 +1,99 @@
+Admin
+	Gestion des annonces extend (Validation) (Suppression)
+	Gestion des utilisateurs
+	Gestion des commentaires (Supp)
+	Publier un article (Conseils, Astuces...)
+	
+
+Visiteur
+	Consulter les annonces et les articles 
+	
+Utilisateur
+	Contacter le propriétaire
+	Lancer une annonce
+	Gestion d'annonce extend (Modification) (Annulation) (Clôture) 
+	Effectuer le paiement
+
+---------------------------------------------------
+
+
+-------------------------MODIF----------------------
+SAMI
+Category
+Donateurs( nom, prenom, )
+Evenement 
+
+-------------------------------------
+
+SANAA
+
+admin   		
+utilisateur
+annonce
+categorie_animal
+conversation
+message
+article
+photo
+type_adoption
+race
+favoris
+paiement 
+---------------------------------------------------
+
+Utilisateur :id,photo, nom, prenom,mot de passe,tel, email, cin, code_postal, ville, adresse, sexe, date_inscription
+
+Annonce : id, titre, categorie_animal, race, description_animal, age_animal, sexe_animal, type_adoption, période_adoption, photo_animal, prix, status, id_Utilisateur, date_annonce
+
+Conversation : id, id_Emetteur, id_Recepteur
+
+Message : id , contenu, date, id_Conversation, id_Utilisateur
+
+Article : id_article, titre, sous_titre, contenu, image, date
+
+Favoris : id_utilisateur, id_annonce
+
+
+
+-------------------------------------------------
+
+
+
+Admin
+	Gestion des publications extend (Validation) (Suppression)
+	Gestion des utilisateurs (supp)
+
+Visiteur
+	Consulter les annonces 
+	Effectuer un don
+	Partager une publication
+
+||heritage
+	
+Utilisateur
+	Publier une annonce
+	Gestion d'annonce extend (Modification) (Annulation) (Clôture) 
+
+	
+
+
+Utilisateur :id,photo, nom, prenom, mot de passe, email, date naissance, cin, adresse, RIB
+
+Annonce : id, titre, description, don, don_status, id_Utilisateur, status
+
+Fichier :id, nom, id_Annonce
+
+Photo: id, nom, id_Annonce
+
+
+
+
+
+
+
+
+
+
+
+	
+
