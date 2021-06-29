@@ -1,0 +1,84 @@
+$purple: #6504B5;
+$gray: rgb(196, 196, 196);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    header{
+        height: 700px;
+        width: 100%;
+        background-image: url('../Images/background.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        .menu1{
+            height: 75px;
+            width: 100%;
+            background-color: white;
+            align-items:  center;
+            .logo{
+                float: left;
+                margin-left: 100px;
+            }
+            hr{
+                height: 100%;
+                border-color: $purple;
+            }
+            div{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                float: right;
+                width: 400px;
+                justify-content: space-between;
+                margin-right: 18px;
+                button{
+                    background: none;
+                    border:none;
+                    color: $purple;
+                    font-weight: bold;
+                    font-size: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        color:$gray;
+                    }
+                }
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+        .menu2{
+            height: 75px;
+            width: 100%;
+            background-color: $purple;
+            display: flex;
+            justify-content: space-between;
+            .container{
+                width: 70%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                div{
+                    text-align: center;
+                    color:white;
+                    font-size: 15px;
+                    h3{
+                        cursor: pointer;
+                        &:hover{
+                            color:$gray;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}
