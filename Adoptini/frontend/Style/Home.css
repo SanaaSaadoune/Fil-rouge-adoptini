@@ -112,4 +112,178 @@ body header .menu2 .container div h3 {
 body header .menu2 .container div h3:hover {
   color: #c4c4c4;
 }
+
+body header .description {
+  position: relative;
+  top: 20%;
+  left: 100px;
+  width: 500px;
+}
+
+body header .description .parag1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+
+body header .description .parag2 {
+  color: white;
+  margin-top: 28px;
+  font-size: 20px;
+  width: 420px;
+}
+
+body header .description button {
+  margin-top: 15px;
+  background: #6504B5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 175px;
+  border-radius: 10px;
+  height: 38px;
+  border-style: none;
+}
+
+body header .description button:hover {
+  color: #6504B5;
+  background-color: #c4c4c4;
+}
+
+body .space {
+  height: 50px;
+}
+
+body .a-propos h2 {
+  text-align: center;
+  color: #6504B5;
+}
+
+body .a-propos hr {
+  width: 170px;
+  color: black;
+  margin: auto;
+  background-color: black;
+}
+
+body .a-propos .first-word {
+  color: #6504B5;
+  text-decoration: underline;
+}
+
+body .a-propos .parag3 {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  background-color: #FFFBFB;
+  line-height: 30px;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+  border-radius: 5px;
+}
+
+body .annonces h2, body .articles h2 {
+  text-align: center;
+  color: #6504B5;
+}
+
+body .annonces hr, body .articles hr {
+  width: 250px;
+  color: black;
+  margin: auto;
+  background-color: black;
+}
+
+body .annonces .animals, body .articles .animals {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .annonces .animals .animal, body .annonces .animals .article, body .articles .animals .animal, body .articles .animals .article {
+  height: 300px;
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .annonces .animals .animal .bg-image1, body .annonces .animals .animal .bg-image2, body .annonces .animals .animal .bg-image3, body .annonces .animals .animal .bg-image4, body .annonces .animals .article .bg-image1, body .annonces .animals .article .bg-image2, body .annonces .animals .article .bg-image3, body .annonces .animals .article .bg-image4, body .articles .animals .animal .bg-image1, body .articles .animals .animal .bg-image2, body .articles .animals .animal .bg-image3, body .articles .animals .animal .bg-image4, body .articles .animals .article .bg-image1, body .articles .animals .article .bg-image2, body .articles .animals .article .bg-image3, body .articles .animals .article .bg-image4 {
+  height: 200px;
+  width: 100%;
+  background-image: url("../Images/image1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0px 0px;
+}
+
+body .annonces .animals .animal .bg-image2, body .annonces .animals .article .bg-image2, body .articles .animals .animal .bg-image2, body .articles .animals .article .bg-image2 {
+  background-image: url("../Images/image2.svg");
+}
+
+body .annonces .animals .animal .bg-image3, body .annonces .animals .article .bg-image3, body .articles .animals .animal .bg-image3, body .articles .animals .article .bg-image3 {
+  background-image: url("../Images/image3.svg");
+}
+
+body .annonces .animals .animal .bg-image4, body .annonces .animals .article .bg-image4, body .articles .animals .animal .bg-image4, body .articles .animals .article .bg-image4 {
+  background-image: url("../Images/image4.svg");
+}
+
+body .annonces .animals .animal .infos-animal, body .annonces .animals .article .infos-animal, body .articles .animals .animal .infos-animal, body .articles .animals .article .infos-animal {
+  -webkit-box-shadow: 1px 1px 3px grey;
+          box-shadow: 1px 1px 3px grey;
+  border-top-style: none;
+  border-radius: 0px 0px 5px 5px;
+  height: 80px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body .annonces .animals .animal .infos-animal a, body .annonces .animals .article .infos-animal a, body .articles .animals .animal .infos-animal a, body .articles .animals .article .infos-animal a {
+  position: relative;
+  top: 30%;
+}
+
+body .annonces .animals .animal .infos-animal p, body .annonces .animals .article .infos-animal p, body .articles .animals .animal .infos-animal p, body .articles .animals .article .infos-animal p {
+  text-align: center;
+  margin-top: 12px;
+}
+
+body .annonces .animals .animal .infos-animal button, body .annonces .animals .article .infos-animal button, body .articles .animals .animal .infos-animal button, body .articles .animals .article .infos-animal button {
+  margin-top: 15px;
+  background: #6504B5;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  width: 70px;
+  border-radius: 7px;
+  height: 23px;
+  border-style: none;
+}
+
+body .annonces .animals .animal .infos-animal button:hover, body .annonces .animals .article .infos-animal button:hover, body .articles .animals .animal .infos-animal button:hover, body .articles .animals .article .infos-animal button:hover {
+  color: #6504B5;
+  background-color: #c4c4c4;
+}
 /*# sourceMappingURL=Home.css.map */

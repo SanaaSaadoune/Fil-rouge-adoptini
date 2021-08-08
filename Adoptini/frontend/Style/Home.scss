@@ -80,5 +80,148 @@ body{
                 }
             }
         }
+        .description{
+            position: relative;
+            top: 20%;
+            left: 100px;
+            width: 500px;
+            .parag1{
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                letter-spacing: 2px;
+                line-height: 34px;
+            }
+            .parag2{
+                color: white;
+                margin-top: 28px;
+                font-size: 20px;
+                width: 420px;
+            }
+            button{
+                margin-top: 15px;
+                background: #6504B5;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+                width: 175px;
+                border-radius: 10px;
+                height: 38px;
+                border-style: none;
+                &:hover{
+                    color:$purple;
+                    background-color: $gray;
+                }    
+            }
+        }
+    }
+    
+    .space{
+        height: 50px;
+    }
+    .a-propos{
+        h2{
+            text-align: center;
+            color: $purple;
+        }
+        hr{
+            width: 170px;
+            color: black;
+            margin: auto;
+            background-color: black;
+        }
+        .first-word{
+            color: $purple;
+            text-decoration: underline;
+        }
+        .parag3{
+            width: 60%;
+            margin: auto;
+            padding: 15px;
+            background-color: #FFFBFB;
+            line-height: 30px;
+            box-shadow: 2px 2px 5px grey;
+            border-radius: 5px;
+        }
+    }
+    .annonces, .articles{
+        h2{
+            text-align: center;
+            color: $purple;
+        }
+        hr{
+            width: 250px;
+            color: black;
+            margin: auto;
+            background-color: black;
+        }
+        .animals, {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+             .animal, .article{
+                height: 300px;
+                width: 280px;
+                display: flex;
+                flex-direction: column;
+                .bg-image1, .bg-image2, .bg-image3, .bg-image4{
+                    height: 200px;
+                    width: 100%;
+                    background-image: url('../Images/image1.svg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 5px 5px 0px 0px;
+                }
+                .bg-image2{
+                    background-image: url('../Images/image2.svg');
+                }
+                .bg-image3{
+                    background-image: url('../Images/image3.svg');
+                }
+                .bg-image4{
+                    background-image: url('../Images/image4.svg');
+                }
+                .infos-animal{
+                    box-shadow: 1px 1px 3px grey;
+                    border-top-style: none;
+                    border-radius: 0px 0px 5px 5px;
+                    height: 80px;
+                    justify-items: center;
+                    align-items: center;
+                    text-align: center;
+                    a{
+                        position: relative;
+                        top: 30%;
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: 12px;
+                    }
+                    button{
+                        margin-top: 15px;
+                        background: #6504B5;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 13px;
+                        cursor: pointer;
+                        width: 70px;
+                        border-radius: 7px;
+                        height: 23px;
+                        border-style: none;
+                        &:hover{
+                            color:$purple;
+                            background-color: $gray;
+                        }    
+                    }
+                }
+            }
+        }
+       
+        
+        
     }
 }
