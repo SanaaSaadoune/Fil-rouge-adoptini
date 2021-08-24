@@ -6,7 +6,7 @@
   font-family: Montserrat;
 }
 
-body header {
+header {
   height: 700px;
   width: 100%;
   background-image: url("../Images/background.svg");
@@ -21,7 +21,7 @@ body header {
           flex-direction: column;
 }
 
-body header .menu1 {
+.menu1 {
   height: 75px;
   width: 100%;
   background-color: white;
@@ -30,17 +30,17 @@ body header .menu1 {
           align-items: center;
 }
 
-body header .menu1 .logo {
+.menu1 .logo {
   float: left;
   margin-left: 100px;
 }
 
-body header .menu1 hr {
+.menu1 hr {
   height: 100%;
   border-color: #6504B5;
 }
 
-body header .menu1 div {
+.menu1 div {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,7 +56,7 @@ body header .menu1 div {
   margin-right: 18px;
 }
 
-body header .menu1 div button {
+.menu1 div button {
   background: none;
   border: none;
   color: #6504B5;
@@ -65,15 +65,15 @@ body header .menu1 div button {
   cursor: pointer;
 }
 
-body header .menu1 div button:hover {
+.menu1 div button:hover {
   color: #c4c4c4;
 }
 
-body header .menu1 div img {
+.menu1 div img {
   cursor: pointer;
 }
 
-body header .menu2 {
+.menu2 {
   height: 75px;
   width: 100%;
   background-color: #6504B5;
@@ -85,7 +85,7 @@ body header .menu2 {
           justify-content: space-between;
 }
 
-body header .menu2 .container {
+.menu2 .container {
   width: 70%;
   margin: auto;
   display: -webkit-box;
@@ -99,28 +99,28 @@ body header .menu2 .container {
           align-items: center;
 }
 
-body header .menu2 .container div {
+.container div {
   text-align: center;
   color: white;
   font-size: 15px;
 }
 
-body header .menu2 .container div h3 {
+.container div h3 {
   cursor: pointer;
 }
 
-body header .menu2 .container div h3:hover {
+.container div h3:hover {
   color: #c4c4c4;
 }
 
-body header .description {
+.description {
   position: relative;
   top: 20%;
   left: 100px;
   width: 500px;
 }
 
-body header .description .parag1 {
+.parag1 {
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -128,14 +128,14 @@ body header .description .parag1 {
   line-height: 34px;
 }
 
-body header .description .parag2 {
+.parag2 {
   color: white;
   margin-top: 28px;
   font-size: 20px;
   width: 420px;
 }
 
-body header .description button {
+.description button {
   margin-top: 15px;
   background: #6504B5;
   color: white;
@@ -148,57 +148,61 @@ body header .description button {
   border-style: none;
 }
 
-body header .description button:hover {
+.description button:hover {
   color: #6504B5;
   background-color: #c4c4c4;
 }
 
-body .space {
+.space {
   height: 50px;
 }
 
-body .a-propos h2 {
+.a-propos h2 {
   text-align: center;
   color: #6504B5;
 }
 
-body .a-propos hr {
+.a-propos hr {
   width: 170px;
   color: black;
   margin: auto;
   background-color: black;
 }
 
-body .a-propos .first-word {
+.first-word {
   color: #6504B5;
   text-decoration: underline;
 }
 
-body .a-propos .parag3 {
+.parag3 {
   width: 60%;
   margin: auto;
   padding: 15px;
   background-color: #FFFBFB;
   line-height: 30px;
   -webkit-box-shadow: 2px 2px 5px grey;
-          box-shadow: 2px 2px 5px grey;
+  box-shadow: 2px 2px 5px grey;
   border-radius: 5px;
 }
 
-body .annonces h2, body .articles h2 {
+.articles {
+  width: 100%;
+}
+
+.annonces h2, .articles h2 {
   text-align: center;
   color: #6504B5;
 }
 
-body .annonces hr, body .articles hr {
+.annonces hr, .articles hr {
   width: 250px;
   color: black;
   margin: auto;
   background-color: black;
 }
 
-body .annonces .animals, body .articles .animals {
-  width: 80%;
+.animals, .all-articles, .animals, .all-articles {
+  width: 85%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,7 +216,7 @@ body .annonces .animals, body .articles .animals {
           justify-content: space-between;
 }
 
-body .annonces .animals .animal, body .annonces .animals .article, body .articles .animals .animal, body .articles .animals .article {
+.animal, .article{
   height: 300px;
   width: 280px;
   display: -webkit-box;
@@ -224,7 +228,7 @@ body .annonces .animals .animal, body .annonces .animals .article, body .article
           flex-direction: column;
 }
 
-body .annonces .animals .animal .bg-image1, body .annonces .animals .animal .bg-image2, body .annonces .animals .animal .bg-image3, body .annonces .animals .animal .bg-image4, body .annonces .animals .article .bg-image1, body .annonces .animals .article .bg-image2, body .annonces .animals .article .bg-image3, body .annonces .animals .article .bg-image4, body .articles .animals .animal .bg-image1, body .articles .animals .animal .bg-image2, body .articles .animals .animal .bg-image3, body .articles .animals .animal .bg-image4, body .articles .animals .article .bg-image1, body .articles .animals .article .bg-image2, body .articles .animals .article .bg-image3, body .articles .animals .article .bg-image4 {
+.bg-image1, .bg-image2, .bg-image3, .bg-image4 {
   height: 200px;
   width: 100%;
   background-image: url("../Images/image1.svg");
@@ -234,19 +238,19 @@ body .annonces .animals .animal .bg-image1, body .annonces .animals .animal .bg-
   border-radius: 5px 5px 0px 0px;
 }
 
-body .annonces .animals .animal .bg-image2, body .annonces .animals .article .bg-image2, body .articles .animals .animal .bg-image2, body .articles .animals .article .bg-image2 {
+.bg-image2{
   background-image: url("../Images/image2.svg");
 }
 
-body .annonces .animals .animal .bg-image3, body .annonces .animals .article .bg-image3, body .articles .animals .animal .bg-image3, body .articles .animals .article .bg-image3 {
+.bg-image3{
   background-image: url("../Images/image3.svg");
 }
 
-body .annonces .animals .animal .bg-image4, body .annonces .animals .article .bg-image4, body .articles .animals .animal .bg-image4, body .articles .animals .article .bg-image4 {
+.bg-image4{
   background-image: url("../Images/image4.svg");
 }
 
-body .annonces .animals .animal .infos-animal, body .annonces .animals .article .infos-animal, body .articles .animals .animal .infos-animal, body .articles .animals .article .infos-animal {
+.infos-animal, .infos-article{
   -webkit-box-shadow: 1px 1px 3px grey;
           box-shadow: 1px 1px 3px grey;
   border-top-style: none;
@@ -259,17 +263,17 @@ body .annonces .animals .animal .infos-animal, body .annonces .animals .article 
   text-align: center;
 }
 
-body .annonces .animals .animal .infos-animal a, body .annonces .animals .article .infos-animal a, body .articles .animals .animal .infos-animal a, body .articles .animals .article .infos-animal a {
+.infos-animal a, .infos-article a{
   position: relative;
   top: 30%;
 }
 
-body .annonces .animals .animal .infos-animal p, body .annonces .animals .article .infos-animal p, body .articles .animals .animal .infos-animal p, body .articles .animals .article .infos-animal p {
+.infos-animal p, .infos-article p{
   text-align: center;
   margin-top: 12px;
 }
 
-body .annonces .animals .animal .infos-animal button, body .annonces .animals .article .infos-animal button, body .articles .animals .animal .infos-animal button, body .articles .animals .article .infos-animal button {
+.infos-animal button, .infos-article button {
   margin-top: 15px;
   background: #6504B5;
   color: white;
@@ -282,8 +286,114 @@ body .annonces .animals .animal .infos-animal button, body .annonces .animals .a
   border-style: none;
 }
 
-body .annonces .animals .animal .infos-animal button:hover, body .annonces .animals .article .infos-animal button:hover, body .articles .animals .animal .infos-animal button:hover, body .articles .animals .article .infos-animal button:hover {
+.infos-animal button:hover, .infos-article button:hover{
   color: #6504B5;
   background-color: #c4c4c4;
+}
+
+.all-articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.article {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.circle-image {
+  height: 100px;
+  position: absolute;
+  width: 108px;
+  background-image: url("../Images/image1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 142px;
+}
+
+.infos-article {
+  height: 150px;
+}
+
+.infos-article p {
+  margin-top: 70px;
+  padding: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #6504B5;
+  color: white;
+  padding-top: 20px;
+}
+
+footer img {
+  width: 160px;
+}
+
+#facebook {
+  width: 15px;
+}
+
+footer a img {
+  margin-right: 6px;
+  width: 25px;
+}
+
+.footer1 {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+}
+
+.block {
+  line-height: 30px;
+  width: 30%;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer1 .logo {
+  width: 60px;
+  height: 60px;
+}
+
+.copy {
+  margin-top: 20px;
+  background-color: #c4c4c4;
+  padding: 3px;
+  border: 1px solid #6504B5;
+}
+
+.copy p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6504B5;
 }
 /*# sourceMappingURL=Home.css.map */
